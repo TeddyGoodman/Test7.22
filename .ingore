@@ -1,0 +1,6 @@
+touch id is enabled, then user change fingerprint records(not remove all), when call GetTouchIDStatusFlag will return TE08 
+3:52:17 PM: Joan J JIA/HSDC/HSBC: in touch id logon flow, if we get TE08
+1.will show error page first when user open app
+2. click continue button show MSK logon page
+3.touch id overlay will be shown after MSK verify success
+4.if pass fingerprint verify will go to account summary page, touch id status will changed to true 
